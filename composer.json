@@ -9,7 +9,16 @@
             "email": "rajpurant19@gmail.com"
         }
     ],
+    "support": {
+        "issues": "https://github.com/rpurant/dblib/issues"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
     "require": {
+        "php": ">=7.4",
         "spier/logger": "1.*"
     }
 }

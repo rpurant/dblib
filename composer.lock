@@ -4,27 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "177a9a2150224244b14a4dc493c1d76f",
+    "content-hash": "9a16909abcc166db708949087746738c",
     "packages": [
         {
             "name": "spier/logger",
-            "version": "1.0",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rpurant/logger.git",
-                "reference": "abf965aa11902f2b6ce57dfc5e481828e4ac5a37"
+                "reference": "d383f6ae6ae42875f5ad33b1a37d6b5b62721410"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rpurant/logger/zipball/abf965aa11902f2b6ce57dfc5e481828e4ac5a37",
-                "reference": "abf965aa11902f2b6ce57dfc5e481828e4ac5a37",
+                "url": "https://api.github.com/repos/rpurant/logger/zipball/d383f6ae6ae42875f5ad33b1a37d6b5b62721410",
+                "reference": "d383f6ae6ae42875f5ad33b1a37d6b5b62721410",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Spier\\Logger\\": "src/"
-                }
+                "classmap": [
+                    "src/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -39,9 +42,9 @@
             "description": "This library will provide logger functionality.",
             "support": {
                 "issues": "https://github.com/rpurant/logger/issues",
-                "source": "https://github.com/rpurant/logger/tree/1.0"
+                "source": "https://github.com/rpurant/logger/tree/1.0.3"
             },
-            "time": "2021-04-07T12:55:21+00:00"
+            "time": "2021-04-07T20:03:35+00:00"
         }
     ],
     "packages-dev": [],
@@ -50,7 +53,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.4"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
 }

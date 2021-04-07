@@ -1,6 +1,6 @@
 <?php
 
-namespace Spier;
+namespace Spier\Database;
 
 use PDO;
 use PDOException;

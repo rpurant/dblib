@@ -1,0 +1,15 @@
+{
+    "name": "spier/dblib",
+    "description": "Database library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rajpu",
+            "email": "rajpurant19@gmail.com"
+        }
+    ],
+    "require": {
+        "spier/logger": "1.*"
+    }
+}

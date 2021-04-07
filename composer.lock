@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "177a9a2150224244b14a4dc493c1d76f",
+    "packages": [
+        {
+            "name": "spier/logger",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rpurant/logger.git",
+                "reference": "abf965aa11902f2b6ce57dfc5e481828e4ac5a37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rpurant/logger/zipball/abf965aa11902f2b6ce57dfc5e481828e4ac5a37",
+                "reference": "abf965aa11902f2b6ce57dfc5e481828e4ac5a37",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spier\\Logger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "rpurant",
+                    "email": "rajpurant19@gmail.com"
+                }
+            ],
+            "description": "This library will provide logger functionality.",
+            "support": {
+                "issues": "https://github.com/rpurant/logger/issues",
+                "source": "https://github.com/rpurant/logger/tree/1.0"
+            },
+            "time": "2021-04-07T12:55:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

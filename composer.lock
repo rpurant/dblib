@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "spier/logger",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rpurant/logger.git",
-                "reference": "d383f6ae6ae42875f5ad33b1a37d6b5b62721410"
+                "reference": "692f24e8cc88f823a664a37e0785b6b996251d6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rpurant/logger/zipball/d383f6ae6ae42875f5ad33b1a37d6b5b62721410",
-                "reference": "d383f6ae6ae42875f5ad33b1a37d6b5b62721410",
+                "url": "https://api.github.com/repos/rpurant/logger/zipball/692f24e8cc88f823a664a37e0785b6b996251d6b",
+                "reference": "692f24e8cc88f823a664a37e0785b6b996251d6b",
                 "shasum": ""
             },
             "require": {
@@ -42,9 +42,9 @@
             "description": "This library will provide logger functionality.",
             "support": {
                 "issues": "https://github.com/rpurant/logger/issues",
-                "source": "https://github.com/rpurant/logger/tree/1.0.3"
+                "source": "https://github.com/rpurant/logger/tree/1.0.4"
             },
-            "time": "2021-04-07T20:03:35+00:00"
+            "time": "2021-04-07T20:34:06+00:00"
         }
     ],
     "packages-dev": [],

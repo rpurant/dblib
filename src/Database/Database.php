@@ -157,13 +157,13 @@ class Database extends PDO
      * Description: Executes the delete action for SQL query
      * @param $table
      * @param $where
-     * @return bool|Database
+     * @return bool
      * DateTime: 05/10/2018 1:18 AM
      * Created By: rpurant
      */
-    public function delete($table, $where)
+    public function delete($table, $where): bool
     {
-        return $this->action('DELETE', $table, $where);
+        return !$this->action('DELETE', $table, $where)->error();
     }
 
     /**
